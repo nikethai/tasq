@@ -27,8 +27,8 @@ class HomePage extends StatelessWidget {
                 decoration: const BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.only(
-                        bottomLeft: Radius.circular(25),
-                        bottomRight: Radius.circular(25))),
+                        bottomLeft: Radius.circular(28),
+                        bottomRight: Radius.circular(28))),
                 child: LayoutBuilder(
                   builder: (context, constraints) => Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
